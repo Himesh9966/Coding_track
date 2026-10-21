@@ -215,3 +215,24 @@ let [a, b] = arr;
 
 b) spreading = when we want to copy array in another 
 
+
+
+
+
+//** Objects **\\
+------------------
+
+1) They are like when want a lot of data about a single object.
+Syntax is like this :- 
+let obj = {
+   name: "Himesh",
+   age: 19,
+   type: "kanchu don only",
+}
+how to access it:- (By writting the name of the object and then out a '.' and then the value which you want to.)
+obj.type;
+
+
+2) Nesting and the deep access. 
+
+

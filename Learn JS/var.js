@@ -487,8 +487,35 @@
 // }
 // console.log(positiveCount);
 
-let arr = [10, 20, 30, 40, 50];
+// let arr = [10, 20, 30, 40, 50];
 
-for (let i = 0; i < arr.length; i++) {
+// for (let i = 0; i < arr.length; i++) {
     
+// }
+
+
+// Create an array with 3 fruits and print the second fruit.
+
+// let fruits = ["Mango", "Strawberry", "Pineapple"];
+
+// let a = fruits[1];
+// console.log(a);
+
+// fruits.push("Apple");
+// fruits.unshift("Bananana");
+
+// console.log(fruits);
+
+
+
+let obj = {
+    name: "Himesh",
+    age: 19,
+    type_of_love: "Only Kanchu don.",
+}
+
+// console.log(obj.type_of_love);
+
+for (let key in obj) {
+    console.log(key, obj[key]);
 }
