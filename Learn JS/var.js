@@ -8,7 +8,7 @@
 // console.log(a)
 
 
-//0>positive.   0=zero.    0<negative.
+// 0>positive.   0=zero.    0<negative.
 
 // var num = Number(require("readline-sync").question("Enter a no.: "));
 
@@ -281,7 +281,7 @@
 // To write a BMI calculator:-
 
 
-// 
+
 // function bmi (weight, height){
 //     return weight / (height * height)
 // }
