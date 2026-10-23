@@ -1,87 +1,170 @@
-# #Print your name, age and college.
+# # #Print your name, age and college.
 
-name = "Himesh"
-college = "JECRC"
-age = 19
-print(name, college, age)
+# name = "Himesh"
+# college = "JECRC"
+# age = 19
+# print(name, college, age)
 
-# #Add two numbers.
-x = 5
-y = 10
+# # #Add two numbers.
+# x = 5
+# y = 10
 
-sum = x + y
-print(sum)
+# sum = x + y
+# print(sum)
 
-# # Basic calculator.
+#---------------------------------------------------------------------------------------------------------------------
 
-a = int(input("Enter the no. "))
-b = int(input("Enter the second no. "))
+# # # Basic calculator.
 
-sum = a + b
-diffrence = a - b
-product = a * b
+# a = int(input("Enter the no. "))
+# b = int(input("Enter the second no. "))
 
-if b != 0 :
-    quotient = a / b
-    print(quotient)
-else :
-    print("Second no. cannot be zero")
+# sum = a + b
+# diffrence = a - b
+# product = a * b
 
-
-print(sum)
-print(diffrence)
-print(product)
+# if b != 0 :
+#     quotient = a / b
+#     print(quotient)
+# else :
+#     print("Second no. cannot be zero")
 
 
+# print(sum)
+# print(diffrence)
+# print(product)
 
-# #Swap two numbers.
+#---------------------------------------------------------------------------------------------------------------------
 
-a = 10
-b = 20
+# # #Swap two numbers.
 
-temp = a
-a = b
-b = temp
+# a = 10
+# b = 20
 
-print(a, b)
+# temp = a
+# a = b
+# b = temp
+
+# print(a, b)
+
+#---------------------------------------------------------------------------------------------------------------------
+
+# # #Calculate the square.
+
+# a = int(input("Enter the no. "))
+
+# root = a ** 2
+# print(root, "is the root of", a)
+
+#---------------------------------------------------------------------------------------------------------------------
+
+# #Calculate the average
+
+# marks = [99, 95, 48, 49, 100]
+
+# sum = 0
+# count = 0
+# for i in range(len(marks)):
+#     sum = sum + marks[i]
+# average = sum / len(marks)
+# print(average)
 
 
-# #Calculate the square.
+# #Calculate a person's age.
 
-a = int(input("Enter the no. "))
+# current_year = int(input("Enter current year: "))
+# birth_year = int(input("Enter your birth year: "))
 
-root = a ** 2
-print(root, "is the root of", a)
+# age = current_year - birth_year
 
-
-#Calculate the average
-
-marks = [99, 95, 48, 49, 100]
-
-sum = 0
-count = 0
-for i in range(len(marks)):
-    sum = sum + marks[i]
-average = sum / len(marks)
-print(average)
+# # print(age)
 
 
-#Calculate a person's age.
+#---------------------------------------------------------------------------------------------------------------------
+# #. Reverse a two-digit number.
 
-current_year = int(input("Enter current year: "))
-birth_year = int(input("Enter your birth year: "))
+# n = int(input("Enter a no."))
+# result = 0
 
-age = current_year - birth_year
+# while n > 0:
+#     ld = n % 10
+#     result = result * 10 + ld
+#     n = n // 10
+# print(result)
 
-# print(age)
 
-#. Reverse a two-digit number.
+#---------------------------------------------------------------------------------------------------------------------
 
-n = int(input("Enter a no."))
-result = 0
+# Question 21: Positive, Negative or Zero
+#
+# Take an integer as input.
+# Check whether the number is positive, negative, or zero.
+#
+# Example:
+# Input: 10
+# Output: Positive
+#
+# Input: -5
+# Output: Negative
+#
+# Input: 0
+# Output: Zero
 
-while n > 0:
-    ld = n % 10
-    result = result * 10 + ld
-    n = n // 10
-print(result)
+# num = int(input("Enter a number: "))
+
+# # Write your logic below
+# if num < 0 :
+#     print("Negative")
+# elif num > 0 :
+#     print("Positive")
+# else :
+#     print("Zero")
+
+#---------------------------------------------------------------------------------------------------------------------
+
+# Question 23: Greater of Two Numbers
+#
+# Take two integers as input.
+# Print the greater number.
+# If both numbers are equal, print "Both are equal".
+#
+# Example:
+# Input: 10 20
+# Output: 20
+#
+# Input: 15 15
+# Output: Both are equal
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+
+# # Write your logic below
+# if a > b :
+#     print(a)
+# elif (a < b) :
+#     print(b)
+# else :
+#     print("Both are equal")
+
+
+#---------------------------------------------------------------------------------------------------------------------
+
+
+
+# Question 36: Print Numbers from 1 to N
+#
+# Take an integer N as input.
+# Print every number from 1 to N.
+#
+# Example:
+# Input: 5
+# Output: 1 2 3 4 5
+
+# n = int(input("Enter N: "))
+
+# # Write your logic below
+# for i in range (n) :
+#     print(i + 1)
+
+
+#---------------------------------------------------------------------------------------------------------------------
