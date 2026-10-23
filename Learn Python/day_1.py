@@ -168,3 +168,41 @@
 
 
 #---------------------------------------------------------------------------------------------------------------------
+
+
+# Question 37: Print Numbers in Reverse
+#
+# Take an integer N as input.
+# Print numbers from N down to 1.
+#
+# Example:
+# Input: 5
+# Output: 5 4 3 2 1
+
+# n = int(input("Enter N: "))
+
+# # Write your logic below
+# # print(*range(n, 0, -1))
+# for i in range (n , 0, -1) :
+#     print(i)
+
+
+#---------------------------------------------------------------------------------------------------------------------
+
+
+
+# Question 38: Print Even Numbers
+#
+# Take an integer N as input.
+# Print all even numbers from 1 to N.
+#
+# Example:
+# Input: 10
+# Output: 2 4 6 8 10
+
+n = int(input("Enter N: "))
+
+# Write your logic below
+for i in range(0, n, 1) :
+    if i % 2 == 0 :
+        print(i)
