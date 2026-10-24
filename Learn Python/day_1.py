@@ -200,9 +200,33 @@
 # Input: 10
 # Output: 2 4 6 8 10
 
-n = int(input("Enter N: "))
+# n = int(input("Enter N: "))
+
+# # Write your logic below
+# for i in range(0, n, 1) :
+#     if i % 2 == 0 :
+#         print(i)
+
+
+#---------------------------------------------------------------------------------------------------------------------
+
+
+# Question 39: Multiplication Table
+#
+# Take an integer as input.
+# Print its multiplication table from 1 to 10.
+#
+# Example:
+# Input: 5
+# Output:
+# 5 x 1 = 5
+# 5 x 2 = 10
+# ...
+# 5 x 10 = 50
+
+n = int(input("Enter a number: "))
+# n = 5
 
 # Write your logic below
-for i in range(0, n, 1) :
-    if i % 2 == 0 :
-        print(i)
+for i in range(1, 11, 1) :
+    print(n, "X", i, "=", n*i)
