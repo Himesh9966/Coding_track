@@ -224,9 +224,63 @@
 # ...
 # 5 x 10 = 50
 
+# n = int(input("Enter a number: "))
+# # n = 5
+
+# # Write your logic below
+# for i in range(1, 11, 1) :
+#     print(n, "X", i, "=", n*i)
+
+
+#---------------------------------------------------------------------------------------------------------------------
+
+
+
+# Question 40: Sum from 1 to N
+#
+# Take an integer N as input.
+# Calculate the sum of all integers from 1 to N.
+#
+# Example:
+# Input: 5
+# Output: 15
+#
+# Explanation: 1 + 2 + 3 + 4 + 5 = 15
+
+# n = int(input("Enter N: "))
+
+# # Write your logic below
+# sum = 0
+# for i in range (1, n + 1, 1) :
+#     sum = sum + i
+# print(sum)
+
+
+#---------------------------------------------------------------------------------------------------------------------
+
+
+# Question 41: Factorial
+#
+# Take a non-negative integer as input.
+# Calculate its factorial using a loop.
+#
+# Factorial of 5 = 5 * 4 * 3 * 2 * 1 = 120
+# Factorial of 0 = 1
+#
+# Example:
+# Input: 5
+# Output: 120
+#
+# If the input is negative, print "Invalid Input".
+
 n = int(input("Enter a number: "))
-# n = 5
 
 # Write your logic below
-for i in range(1, 11, 1) :
-    print(n, "X", i, "=", n*i)
+
+if n < 0:
+    print("Invalid Input")
+else:
+    factorial = 1
+    for i in range(1, n + 1):
+        factorial = factorial * i
+    print(factorial)
